@@ -1,4 +1,5 @@
-body {
+
+/* body {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -12,4 +13,40 @@ body {
 .footer {
     background-color:white;
     padding: 10px;
+} */
+
+@font-face {                  
+	font-family: 'Barecast';
+	src: url(https://humantooth.neocities.org/fonts/Barecast-Regular.woff2) format('woff2');
+	font-weight: normal;
+	font-style: normal;
+} 
+body {
+	font-family: "Barecast";
+	background-color: powderblue;
+	background-image: url("./images/bullet.png");
+	margin: 25px 50px 75px 100px;
+	background-size: 20px;
 }
+
+h1 {
+	background-color: lavender;
+	padding:5px 0 36px 84px;
+	border-style: outset;
+	margin:10px;
+
+}
+
+ul {
+	margin: 10px;
+	padding: 5px 0 36px 84px;
+	list-style: square;
+	background-color: lavender;
+	border-style: inset;
+	/*background-image: url("./images/bullet.png");
+	background-position: left center;
+	background-size: 20px;*/
+}
+
+
+>>>>>>> 42dd6806d5262777a3b9a348eb945096e60d57d6

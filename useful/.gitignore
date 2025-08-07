@@ -1,0 +1,19 @@
+# git ignore file
+
+# compiler stuff
+*.o
+*.lo
+*~*
+*.out
+*.exe
+*.dll
+
+# media files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.pptx
+*.docx
+
